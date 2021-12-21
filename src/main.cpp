@@ -88,9 +88,9 @@ void breathing()
   static int bright = 0;
   bright += dir * 5; // 5 - множитель скорости изменения
 
-  if (bright > 255)
+  if (bright > 200)
   {
-    bright = 255;
+    bright = 200;
     dir = -1;
   }
   if (bright < 100)
